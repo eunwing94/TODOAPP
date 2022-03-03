@@ -13,6 +13,6 @@ app.get('/pet', function(request, response){
 
 app.get('/beauty', function(request, response){
     var html = 'This is HOMEWORK #1. This is a website for shopping BEAUTY items';
-    response.send(html);
+    response.send(html); //변경 여부  ㅇㅇ
     
 });
